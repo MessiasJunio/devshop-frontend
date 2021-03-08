@@ -13,7 +13,7 @@ const Index = () => {
         <div className='flex flex-wrap -mx-6'>
           <Card>
             <Card.Icon>
-              <MdHome class='h-8 w-8 text-white' />
+              <MdHome className='h-8 w-8 text-white' />
             </Card.Icon>
             <Card.Data>
               <Card.Title>2000</Card.Title>
@@ -22,7 +22,7 @@ const Index = () => {
           </Card>
           <Card>
             <Card.Icon>
-              <MdHome class='h-8 w-8 text-white' />
+              <MdHome className='h-8 w-8 text-white' />
             </Card.Icon>
             <Card.Data>
               <Card.Title>2000</Card.Title>
@@ -31,7 +31,7 @@ const Index = () => {
           </Card>
           <Card>
             <Card.Icon>
-              <MdHome class='h-8 w-8 text-white' />
+              <MdHome className='h-8 w-8 text-white' />
             </Card.Icon>
             <Card.Data>
               <Card.Title>2000</Card.Title>
