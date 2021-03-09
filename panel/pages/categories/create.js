@@ -35,14 +35,13 @@ const Index = () => {
   return (
     <Layout>
       <Title>Criar nova categoria</Title>
-      <pre>{JSON.stringify(data, null, 2)}</pre>
       <div className='mt-8'></div>
       <div>
         <Button.LinkOutline href='/categories'>Voltar</Button.LinkOutline>
       </div>
       <div className='flex flex-col mt-8'>
         <div className='-my-2 py-2 overflow-x-auto sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8'>
-          <div class='bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 flex flex-col my-2 p-12'>
+          <div className='bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 flex flex-col my-2 p-12'>
             <form onSubmit={form.handleSubmit}>
               <Input
                 label='Nome da Categoria'
