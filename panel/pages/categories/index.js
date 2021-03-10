@@ -41,7 +41,7 @@ const Index = () => {
         <div className='-my-2 py-2 overflow-x-auto sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8'>
           {data && data.getAllCategories && data.getAllCategories.length === 0 && (
             <Alert>
-              <p>Nenhumda categoria criada até o momento.</p>
+              <p>Nenhuma categoria criada até o momento.</p>
             </Alert>
           )}
           {data && data.getAllCategories && data.getAllCategories.length > 0 && (

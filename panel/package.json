@@ -18,6 +18,7 @@
     "react-dom": "^17.0.1",
     "react-icons": "^4.2.0",
     "swr": "^0.4.2",
-    "tailwindcss": "^2.0.3"
+    "tailwindcss": "^2.0.3",
+    "yup": "^0.32.9"
   }
 }
